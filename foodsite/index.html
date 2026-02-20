@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header_content">
+            <img src="logo3.png" alt="salad logo" class="head-logo">
+            <h1 class="head-title">THE SALAD BOWL</h1>
+        </div>
+        <a href="salad-facts.html" class="head salad-facts">Salad Facts</a>
+        <a href="#" class="head about-us">About Us</a>
+        <a href="#" class="head Contact-us">Contact Us</a>
+
+        <div class="head header-auth">
+        <i class="fa-solid fa-circle-user"></i>
+        <a href="#" onclick="openSignup(); return false;">Sign Up</a>
+        <span>/</span>
+        <a href="#" onclick="openLogin(); return false;">Log In</a>
+        </div>
+
+    </header>
+
+    <!-- Wide range of salad bowls available images -->
+    
+    <div class="salad-bowl-container">
+        <div class="salad-bowl-text-container">
+            <p class="salad-bowl-text text">Ready to Explore the
+            <br> exotic variety of 
+            <br>Salads?</p>
+        </div>
+        <div class="salad-bowl-images">
+            <div class="salad-image 1"><img src="salad1.jpg" alt="salad image 1"></div>
+            <div class="salad-image 5"><img src="salad5.jpg" alt="salad image 5"></div>
+            <div class="salad-image 6"><img src="salad6.jpg" alt="salad image 6"></div>
+            <div class="salad-image 4"><img src="salad 4.jpg" alt="salad image 4"></div>
+            <div class="salad-image 2"><img src="salad2.jpg" alt="salad image 2"></div>
+            <div class="salad-image 3"><img src="salad3.jpg" alt="salad image 3"></div>
+        </div>
+    </div>
+
+    <!-- dialogues -->
+    <div class="dia-image-container">
+        <p class="dia-image-text text">"We aim to promote
+            <br>Healthy food & a
+            <br>healthy life-style"</p>
+        <img class="dia-image" src="dialogue1.jpg" alt="salad image (dialogue1)">
+    </div>
+
+    <!-- restraunt near me -->
+
+    <div class="section">
+        <div class="section-header">
+            <h2 class="section-title">Discover best salad restaurants nearby</h2>
+            <div class="nav-btns">
+            <button class="nav-btn" aria-label="Previous">&#8592;</button>
+            <button class="nav-btn" aria-label="Next">&#8594;</button>
+            </div>
+        </div>
+    
+    <!-- Cards rows -->
+    
+    <div class="cards-row">
+
+        <!-- Card1 divs -->
+        <div class="card">
+        <div class="card-img-wrap">
+            <img src="salad-cafe-1.jpg" alt="salad-cafe-1"/>
+            <div class="card-img-overlay"></div>
+            <div class="card-img-info">
+            <span class="card-name">greta'</span>
+            <div class="card-rating">
+                <span class="star-icon">★</span>
+                <span class="rating-value">4.6</span>
+            </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="card-meta-row">
+            <span class="card-tags">Beverages • Dessert Salads</span>
+            <span class="card-price">₹300 for two</span>
+            </div>
+            <div class="card-location-row">
+            <span class="card-location">Tilak Nagar, Delhi</span>
+            <span class="card-distance">600 m</span>
+            </div>
+        </div>
+        </div>
+
+        <!--card2 divs  -->
+
+        <div class="card">
+        <div class="card-img-wrap">
+            <img src="salad-cafe-2.jpg" alt="salad-cafe-2"/>
+            <div class="card-img-overlay"></div>
+            <div class="card-img-info">
+            <span class="card-name">Kernel*</span>
+            <div class="card-rating">
+                <span class="star-icon">★</span>
+                <span class="rating-value">4.1</span>
+            </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="card-meta-row">
+            <span class="card-tags">Green Teas • Bound Salads</span>
+            <span class="card-price">₹250 for two</span>
+            </div>
+            <div class="card-location-row">
+            <span class="card-location">Hari Nagar, Delhi</span>
+            <span class="card-distance">850 m</span>
+            </div>
+        </div>
+        </div>
+
+        <!-- card3 divs -->
+
+        <div class="card">
+        <div class="card-img-wrap">
+            <img src="salad-cafe-3.jpg" alt="salad-cafe-3"/>
+            <div class="card-img-overlay"></div>
+            <div class="card-img-info">
+            <span class="card-name">bowl'd</span>
+            <div class="card-rating">
+                <span class="star-icon">★</span>
+                <span class="rating-value">4.6</span>
+            </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="card-meta-row">
+            <span class="card-tags">Green teas • Pasta Salads</span>
+            <span class="card-price">₹400 for two</span>
+            </div>
+            <div class="card-location-row">
+            <span class="card-location">Subhash Nagar, Delhi</span>
+            <span class="card-distance">1.1 km</span>
+            </div>
+        </div>
+        </div>
+        
+        <!-- card4 divs -->
+
+        <div class="card">
+        <div class="card-img-wrap">
+            <img src="salad-cafe-4.jpg" alt="salad-cafe-4"/>
+            <div class="card-img-overlay"></div>
+            <div class="card-img-info">
+            <span class="card-name">Grills</span>
+            <div class="card-rating">
+                <span class="star-icon">★</span>
+                <span class="rating-value">5.0</span>
+            </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="card-meta-row">
+            <span class="card-tags">Beverages • Green Salads</span>
+            <span class="card-price">₹300 for two</span>
+            </div>
+            <div class="card-location-row">
+            <span class="card-location">Janakpuri, Delhi</span>
+            <span class="card-distance">1.5 km</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer-divs">
+
+            <!-- Company Logo & Copyright -->
+
+            <div class="footer-logo-text-copyright">
+                <div class="salad-footer-brand-logo">
+                    <img src="logo3.png" alt="The Salad Bowl Logo" class="salad-footer-image">
+                </div>
+                <div class="footer-logo-text">The Salad Bowl <br>
+                    <i class="fa-solid fa-copyright"></i>
+                    Copyright 2026
+                </div>
+            </div>
+
+            <div class="footer-company">
+                <ul class="footer-company-tags">
+                    <li class="footer-company-tag">Company</li>
+                    <li class="footer-company-tags-link" ><a href="#" >about us</a></li>
+                    <li class="footer-company-tags-link" ><a href="#" >Teams</a></li>
+                    <li class="footer-company-tags-link" ><a href="#" >Carrers</a></li>
+                    <li class="footer-company-tags-link" ><a href="#" >Minis</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <ul class="footer-contact-tags">
+                    <li class="footer-contact-tag">Contact Us</li>
+                    <li class="footer-contact-tags-link" ><a href="#" >Help &Support</a></li>
+                    <li class="footer-contact-tags-link" ><a href="#" >Partner with us</a></li>
+                    <li class="footer-contact-tags-link" ><a href="#" >Ride with us</a></li>
+                </ul>
+            </div>
+
+            <div class="available-in">
+                Available in   
+                <select name="cities" id="">
+                    <option value="">Delhi</option>
+                    <option value="">Mumbai</option>
+                    <option value="">Banglore</option>
+                    <option value="">Pune</option>
+                    <option value="">Dehradun</option>
+                </select>
+            </div>
+
+        </div>
+    </footer>   
+
+<!-- Login Modal -->
+<div id="login-modal" class="auth-modal">
+    <div class="auth-modal-content">
+        <span class="auth-close" onclick="closeLogin()">&times;</span>
+        <h2>Log In</h2>
+        <form id="login-form" onsubmit="handleLogin(event)">
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button type="submit">Log In</button>
+        </form>
+        <p class="auth-switch">Don't have an account? <a href="#" onclick="switchToSignup()">Sign Up</a></p>
+    </div>
+</div>
+
+<!-- Signup Modal -->
+<div id="signup-modal" class="auth-modal">
+    <div class="auth-modal-content">
+        <span class="auth-close" onclick="closeSignup()">&times;</span>
+        <h2>Sign Up</h2>
+        <form id="signup-form" onsubmit="handleSignup(event)">
+        <input type="text" id="signup-name" placeholder="Full Name" required>
+        <input type="email" id="signup-email" placeholder="Email" required>
+        <input type="password" id="signup-password" placeholder="Password" required>
+        <input type="password" id="signup-confirm" placeholder="Confirm Password" required>
+        <button type="submit">Sign Up</button>
+        </form>
+        <p class="auth-switch">Already have an account? <a href="#" onclick="switchToLogin()">Log In</a></p>
+    </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
